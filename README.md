@@ -34,6 +34,9 @@ In your application javascript, you can now get the manifest of rendered PNG fil
 import { manifest } from 'virtual:render-svg'
 ```
 
+> [!NOTE]
+> This plugin can't be used to provide images for use in the Vite config file itself (for example for PWA/plugin manifest generation), as Vite has to run the build stage in order to generate the manifest. (The `virtual:` URL handler is also not present when loading the Vite config.)
+
 Assuming you have one SVG file called `example.svg`, the manifest structure will be in a format like:
 
 ```json
