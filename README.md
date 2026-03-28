@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository has moved to Codeberg: [https://codeberg.org/russss/vite-plugin-render-svg](https://codeberg.org/russss/vite-plugin-render-svg)
+
 # vite-plugin-render-svg
 
 A [Vite](https://vitejs.dev) plugin to render SVG files to PNG. This is useful for generating map symbols for [Maplibre GL JS](https://maplibre.org/maplibre-gl-js). It supports the `@2x` suffix for generating Retina/high-DPI images, and tagging the filenames with a hash when deployed in production.
